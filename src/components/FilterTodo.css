@@ -1,0 +1,59 @@
+.filter-todo {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows buttons to be arranged in multiple rows if there is no space */
+}
+
+.filter-todo button {
+  width: 150px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--button-color);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.filter-todo button:hover {
+  background-color: #0b14c9;
+  transform: scale(1.03);
+}
+
+.filter-todo button.active {
+  background-color: var(--primary-color);
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .filter-todo {
+    gap: 8px;
+    padding-top: 20px;
+  }
+
+  .filter-todo button {
+    width: 120px;
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-todo {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .filter-todo button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+}

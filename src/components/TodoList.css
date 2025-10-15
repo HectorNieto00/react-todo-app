@@ -1,0 +1,131 @@
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  max-height: 500px;
+  overflow-y: auto; /* Enables vertical scrolling */
+  scrollbar-color: var(--primary-color);
+  scrollbar-width: thin; /* For Firefox */
+}
+
+.todo-list::-webkit-scrollbar {
+  width: 8px; /* For Chrome, Safari, and Opera */
+}
+
+.todo-list::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.todo-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.todo-list p {
+  font-size: 18px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.todo-list li {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.todo-list li:hover {
+  transform: scale(1.02);
+  background-color: #f9f9f9;
+}
+
+.todo-text {
+  font-size: 18px;
+  color: var(--text-color);
+  cursor: pointer;
+  flex: 1;
+  word-break: break-word;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+/* When text is completed */
+.todo-list li.completed .todo-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list button {
+  width: 80px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.todo-list button:hover {
+  background-color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .todo-list{
+    max-height: 300px;
+  }
+
+  .todo-list li {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .todo-text {
+    font-size: 16px;
+  }
+
+  .todo-list button {
+    width: 70px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo-list{
+    max-height: 250px;
+  }
+
+  .todo-list li {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .todo-text {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .todo-list button {
+    width: 100%;
+  }
+}
