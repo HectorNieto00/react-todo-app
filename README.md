@@ -64,5 +64,5 @@ todo-app/
 **Héctor Nieto Ruiz**    
 💼 Software Engineer | MSc Big Data and Data Science Technology  
 📍 London, UK  
-🔗 Encuéntrame en:  
+🔗 Encuéntrame en:
 [LinkedIn](https://www.linkedin.com/in/hector-nieto-ruiz-753202169/) | [GitHub](https://github.com/HectorNieto00)
