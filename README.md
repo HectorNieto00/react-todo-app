@@ -1,5 +1,7 @@
 # 🗒️ To-Do App with Filters (React)
 
+![gif-app](./src/assets/toDo-app.gif)
+
 This is a simple To-Do application built with React that allows users to add, mark as completed, delete, and filter tasks by status.  
 It was created as a beginner front-end project to practice React fundamentals such as `useState`, props, and component composition.
 
@@ -61,5 +63,5 @@ todo-app/
 
 **Hector Nieto**  
 📍 London, UK  
-💼 Software Engineer | BIg Data and Data Science Technology
-🔗 [LinkedIn](https://www.linkedin.com/in/tuusuario) | [GitHub](https://github.com/HectorNieto00)
+💼 Software Engineer | MSc Big Data and Data Science Technology
+🔗 [LinkedIn](https://www.linkedin.com/in/hector-nieto-ruiz-753202169/) | [GitHub](https://github.com/HectorNieto00)
