@@ -61,7 +61,9 @@ todo-app/
 
 ## 👩‍💻 Author
 
-**Hector Nieto**  
-📍 London, UK  
+**Hector Nieto**    
 💼 Software Engineer | MSc Big Data and Data Science Technology
-🔗 [LinkedIn](https://www.linkedin.com/in/hector-nieto-ruiz-753202169/) | [GitHub](https://github.com/HectorNieto00)
+📍 London, UK
+
+### 🔗 Encuéntrame en:
+[LinkedIn](https://www.linkedin.com/in/hector-nieto-ruiz-753202169/) | [GitHub](https://github.com/HectorNieto00)
